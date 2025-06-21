@@ -28,7 +28,7 @@ const Edit=()=>{
     return(
         <div>
             <h1>Edit page</h1>
-            <div  style={{width:"700px",position:"relative", border:"1px solid black", backgroundColor: "white" ,padding:"0"}}ref={memref} className="meme mt-3 mb-2">
+            <div  style={{width:"1000px",position:"relative", border:"1px solid black", backgroundColor: "white" ,padding:"0"}}ref={memref} className="meme mt-3 mb-2">
                  
                  <img src={params.get("url")} style={{ display: "block" }}  width={"400px"} alt="meme"/>
                  {
